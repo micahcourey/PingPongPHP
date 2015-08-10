@@ -6,7 +6,11 @@
 <body>
     <div class="container">
         <h1>Your result:</h1>
-        <h4>{{ result }}</h4>
+        <ul>
+            {% for key in result %}
+                <li>{{ key }}</li>
+            {% endfor %}
+        </ul>
     </div>
 </body>
 </html>

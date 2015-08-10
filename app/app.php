@@ -19,7 +19,7 @@
 
     $app->get("/view_ping_pong", function() use($app) {
         $my_PingPongGenerator = new PingPongGenerator;
-        $ping_pong_number = $my_PingPongGenerator->makePingPong($_GET['number']);
+        $ping_pong_number = $my_PingPongGenerator->generatePingPongArray($_GET['number']);
         return $app['twig']->render('ping_pong.html.twig', array('result' => $ping_pong_number));
     });
 
