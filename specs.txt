@@ -1,0 +1,4 @@
+1. prints a user inputed number
+2. prints an array of numbers starting with 1 and ending with the users number
+3. replaces numbers divisible by 3 or 5 with the string 'ping' or 'pong'
+4. replace numbers divisible by both 3 and 5 with the string 'ping-pong'  
